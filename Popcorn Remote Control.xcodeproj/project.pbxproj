@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C0591F19D70C4500E5FC90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C0591E19D70C4500E5FC90 /* AppDelegate.swift */; };
+		01C0592119D70C4500E5FC90 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C0592019D70C4500E5FC90 /* MasterViewController.swift */; };
+		01C0592319D70C4500E5FC90 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C0592219D70C4500E5FC90 /* DetailViewController.swift */; };
+		01C0592619D70C4500E5FC90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C0592419D70C4500E5FC90 /* Main.storyboard */; };
+		01C0592819D70C4500E5FC90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C0592719D70C4500E5FC90 /* Images.xcassets */; };
+		01C0593419D70C4500E5FC90 /* Popcorn_Remote_ControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C0593319D70C4500E5FC90 /* Popcorn_Remote_ControlTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01C0592E19D70C4500E5FC90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01C0591119D70C4500E5FC90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C0591819D70C4500E5FC90;
+			remoteInfo = "Popcorn Remote Control";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C0591919D70C4500E5FC90 /* Popcorn Remote Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Popcorn Remote Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C0591D19D70C4500E5FC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C0591E19D70C4500E5FC90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01C0592019D70C4500E5FC90 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		01C0592219D70C4500E5FC90 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		01C0592519D70C4500E5FC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01C0592719D70C4500E5FC90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		01C0592D19D70C4500E5FC90 /* Popcorn Remote ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Popcorn Remote ControlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C0593219D70C4500E5FC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C0593319D70C4500E5FC90 /* Popcorn_Remote_ControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popcorn_Remote_ControlTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01C0591619D70C4500E5FC90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C0592A19D70C4500E5FC90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C0591019D70C4500E5FC90 = {
+			isa = PBXGroup;
+			children = (
+				01C0591B19D70C4500E5FC90 /* Popcorn Remote Control */,
+				01C0593019D70C4500E5FC90 /* Popcorn Remote ControlTests */,
+				01C0591A19D70C4500E5FC90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01C0591A19D70C4500E5FC90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01C0591919D70C4500E5FC90 /* Popcorn Remote Control.app */,
+				01C0592D19D70C4500E5FC90 /* Popcorn Remote ControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01C0591B19D70C4500E5FC90 /* Popcorn Remote Control */ = {
+			isa = PBXGroup;
+			children = (
+				01C0591E19D70C4500E5FC90 /* AppDelegate.swift */,
+				01C0592019D70C4500E5FC90 /* MasterViewController.swift */,
+				01C0592219D70C4500E5FC90 /* DetailViewController.swift */,
+				01C0592419D70C4500E5FC90 /* Main.storyboard */,
+				01C0592719D70C4500E5FC90 /* Images.xcassets */,
+				01C0591C19D70C4500E5FC90 /* Supporting Files */,
+			);
+			path = "Popcorn Remote Control";
+			sourceTree = "<group>";
+		};
+		01C0591C19D70C4500E5FC90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01C0591D19D70C4500E5FC90 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01C0593019D70C4500E5FC90 /* Popcorn Remote ControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				01C0593319D70C4500E5FC90 /* Popcorn_Remote_ControlTests.swift */,
+				01C0593119D70C4500E5FC90 /* Supporting Files */,
+			);
+			path = "Popcorn Remote ControlTests";
+			sourceTree = "<group>";
+		};
+		01C0593119D70C4500E5FC90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01C0593219D70C4500E5FC90 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01C0591819D70C4500E5FC90 /* Popcorn Remote Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C0593719D70C4500E5FC90 /* Build configuration list for PBXNativeTarget "Popcorn Remote Control" */;
+			buildPhases = (
+				01C0591519D70C4500E5FC90 /* Sources */,
+				01C0591619D70C4500E5FC90 /* Frameworks */,
+				01C0591719D70C4500E5FC90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Popcorn Remote Control";
+			productName = "Popcorn Remote Control";
+			productReference = 01C0591919D70C4500E5FC90 /* Popcorn Remote Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01C0592C19D70C4500E5FC90 /* Popcorn Remote ControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C0593A19D70C4500E5FC90 /* Build configuration list for PBXNativeTarget "Popcorn Remote ControlTests" */;
+			buildPhases = (
+				01C0592919D70C4500E5FC90 /* Sources */,
+				01C0592A19D70C4500E5FC90 /* Frameworks */,
+				01C0592B19D70C4500E5FC90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01C0592F19D70C4500E5FC90 /* PBXTargetDependency */,
+			);
+			name = "Popcorn Remote ControlTests";
+			productName = "Popcorn Remote ControlTests";
+			productReference = 01C0592D19D70C4500E5FC90 /* Popcorn Remote ControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01C0591119D70C4500E5FC90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Urucas;
+				TargetAttributes = {
+					01C0591819D70C4500E5FC90 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					01C0592C19D70C4500E5FC90 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 01C0591819D70C4500E5FC90;
+					};
+				};
+			};
+			buildConfigurationList = 01C0591419D70C4500E5FC90 /* Build configuration list for PBXProject "Popcorn Remote Control" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01C0591019D70C4500E5FC90;
+			productRefGroup = 01C0591A19D70C4500E5FC90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01C0591819D70C4500E5FC90 /* Popcorn Remote Control */,
+				01C0592C19D70C4500E5FC90 /* Popcorn Remote ControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01C0591719D70C4500E5FC90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C0592619D70C4500E5FC90 /* Main.storyboard in Resources */,
+				01C0592819D70C4500E5FC90 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C0592B19D70C4500E5FC90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01C0591519D70C4500E5FC90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C0592319D70C4500E5FC90 /* DetailViewController.swift in Sources */,
+				01C0592119D70C4500E5FC90 /* MasterViewController.swift in Sources */,
+				01C0591F19D70C4500E5FC90 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C0592919D70C4500E5FC90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C0593419D70C4500E5FC90 /* Popcorn_Remote_ControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01C0592F19D70C4500E5FC90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01C0591819D70C4500E5FC90 /* Popcorn Remote Control */;
+			targetProxy = 01C0592E19D70C4500E5FC90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01C0592419D70C4500E5FC90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01C0592519D70C4500E5FC90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01C0593519D70C4500E5FC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01C0593619D70C4500E5FC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01C0593819D70C4500E5FC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Popcorn Remote Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01C0593919D70C4500E5FC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Popcorn Remote Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01C0593B19D70C4500E5FC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Popcorn Remote Control.app/Popcorn Remote Control";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Popcorn Remote ControlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		01C0593C19D70C4500E5FC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Popcorn Remote Control.app/Popcorn Remote Control";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Popcorn Remote ControlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01C0591419D70C4500E5FC90 /* Build configuration list for PBXProject "Popcorn Remote Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C0593519D70C4500E5FC90 /* Debug */,
+				01C0593619D70C4500E5FC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01C0593719D70C4500E5FC90 /* Build configuration list for PBXNativeTarget "Popcorn Remote Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C0593819D70C4500E5FC90 /* Debug */,
+				01C0593919D70C4500E5FC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01C0593A19D70C4500E5FC90 /* Build configuration list for PBXNativeTarget "Popcorn Remote ControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C0593B19D70C4500E5FC90 /* Debug */,
+				01C0593C19D70C4500E5FC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01C0591119D70C4500E5FC90 /* Project object */;
+}
