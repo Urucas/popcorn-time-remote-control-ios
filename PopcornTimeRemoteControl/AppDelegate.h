@@ -1,17 +1,17 @@
 //
 //  AppDelegate.h
-//  PopcornTimeRemoteControl
+//  SlideMenu
 //
-//  Created by Bruno Alassia on 1/9/15.
-//  Copyright (c) 2015 Bruno Alassia. All rights reserved.
+//  Created by Aryan Gh on 4/24/13.
+//  Copyright (c) 2013 Aryan Ghassemi. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "SlideNavigationController.h"
+#import "LeftMenuViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-
 @end
-

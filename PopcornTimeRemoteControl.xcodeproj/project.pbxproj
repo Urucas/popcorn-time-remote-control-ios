@@ -9,23 +9,20 @@
 /* Begin PBXBuildFile section */
 		01446AC01A60AA9900D9F3C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01446ABF1A60AA9900D9F3C8 /* main.m */; };
 		01446AC31A60AA9900D9F3C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01446AC21A60AA9900D9F3C8 /* AppDelegate.m */; };
-		01446AC61A60AA9900D9F3C8 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01446AC51A60AA9900D9F3C8 /* MasterViewController.m */; };
-		01446AC91A60AA9900D9F3C8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01446AC81A60AA9900D9F3C8 /* DetailViewController.m */; };
-		01446ACC1A60AA9900D9F3C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01446ACA1A60AA9900D9F3C8 /* Main.storyboard */; };
 		01446ACE1A60AA9900D9F3C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01446ACD1A60AA9900D9F3C8 /* Images.xcassets */; };
 		01446AD11A60AA9900D9F3C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01446ACF1A60AA9900D9F3C8 /* LaunchScreen.xib */; };
-		01446ADD1A60AA9900D9F3C8 /* PopcornTimeRemoteControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01446ADC1A60AA9900D9F3C8 /* PopcornTimeRemoteControlTests.m */; };
+		0179AC571A64E16000E9D95A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179AC541A64E16000E9D95A /* HomeViewController.m */; };
+		0179AC581A64E16000E9D95A /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179AC561A64E16000E9D95A /* LeftMenuViewController.m */; };
+		0179AC5B1A64E18100E9D95A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0179AC591A64E18100E9D95A /* MainStoryboard_iPhone.storyboard */; };
+		0179AC6E1A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179AC601A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorFade.m */; };
+		0179AC6F1A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179AC621A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorScale.m */; };
+		0179AC701A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179AC641A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		0179AC711A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179AC661A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorSlide.m */; };
+		0179AC721A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179AC681A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+		0179AC731A64E1BA00E9D95A /* menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0179AC6A1A64E1BA00E9D95A /* menu-button.png */; };
+		0179AC741A64E1BA00E9D95A /* menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0179AC6B1A64E1BA00E9D95A /* menu-button@2x.png */; };
+		0179AC751A64E1BA00E9D95A /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179AC6D1A64E1BA00E9D95A /* SlideNavigationController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		01446AD71A60AA9900D9F3C8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 01446AB21A60AA9800D9F3C8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 01446AB91A60AA9900D9F3C8;
-			remoteInfo = PopcornTimeRemoteControl;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01446ABA1A60AA9900D9F3C8 /* PopcornTimeRemoteControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopcornTimeRemoteControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,27 +30,32 @@
 		01446ABF1A60AA9900D9F3C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01446AC11A60AA9900D9F3C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01446AC21A60AA9900D9F3C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		01446AC41A60AA9900D9F3C8 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		01446AC51A60AA9900D9F3C8 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		01446AC71A60AA9900D9F3C8 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		01446AC81A60AA9900D9F3C8 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		01446ACB1A60AA9900D9F3C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01446ACD1A60AA9900D9F3C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		01446AD01A60AA9900D9F3C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		01446AD61A60AA9900D9F3C8 /* PopcornTimeRemoteControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopcornTimeRemoteControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		01446ADB1A60AA9900D9F3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01446ADC1A60AA9900D9F3C8 /* PopcornTimeRemoteControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopcornTimeRemoteControlTests.m; sourceTree = "<group>"; };
+		0179AC531A64E16000E9D95A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0179AC541A64E16000E9D95A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0179AC551A64E16000E9D95A /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		0179AC561A64E16000E9D95A /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		0179AC5A1A64E18100E9D95A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		0179AC5E1A64E1BA00E9D95A /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		0179AC5F1A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
+		0179AC601A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		0179AC611A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
+		0179AC621A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
+		0179AC631A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
+		0179AC641A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
+		0179AC651A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		0179AC661A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		0179AC671A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		0179AC681A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+		0179AC6A1A64E1BA00E9D95A /* menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button.png"; sourceTree = "<group>"; };
+		0179AC6B1A64E1BA00E9D95A /* menu-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button@2x.png"; sourceTree = "<group>"; };
+		0179AC6C1A64E1BA00E9D95A /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
+		0179AC6D1A64E1BA00E9D95A /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		01446AB71A60AA9900D9F3C8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		01446AD31A60AA9900D9F3C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -67,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				01446ABC1A60AA9900D9F3C8 /* PopcornTimeRemoteControl */,
-				01446AD91A60AA9900D9F3C8 /* PopcornTimeRemoteControlTests */,
 				01446ABB1A60AA9900D9F3C8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				01446ABA1A60AA9900D9F3C8 /* PopcornTimeRemoteControl.app */,
-				01446AD61A60AA9900D9F3C8 /* PopcornTimeRemoteControlTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,14 +84,12 @@
 		01446ABC1A60AA9900D9F3C8 /* PopcornTimeRemoteControl */ = {
 			isa = PBXGroup;
 			children = (
+				0179AC5C1A64E1BA00E9D95A /* Source */,
+				0179AC521A64E16000E9D95A /* Controllers */,
 				01446AC11A60AA9900D9F3C8 /* AppDelegate.h */,
 				01446AC21A60AA9900D9F3C8 /* AppDelegate.m */,
-				01446AC41A60AA9900D9F3C8 /* MasterViewController.h */,
-				01446AC51A60AA9900D9F3C8 /* MasterViewController.m */,
-				01446AC71A60AA9900D9F3C8 /* DetailViewController.h */,
-				01446AC81A60AA9900D9F3C8 /* DetailViewController.m */,
-				01446ACA1A60AA9900D9F3C8 /* Main.storyboard */,
 				01446ACD1A60AA9900D9F3C8 /* Images.xcassets */,
+				0179AC591A64E18100E9D95A /* MainStoryboard_iPhone.storyboard */,
 				01446ACF1A60AA9900D9F3C8 /* LaunchScreen.xib */,
 				01446ABD1A60AA9900D9F3C8 /* Supporting Files */,
 			);
@@ -107,21 +105,53 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		01446AD91A60AA9900D9F3C8 /* PopcornTimeRemoteControlTests */ = {
+		0179AC521A64E16000E9D95A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				01446ADC1A60AA9900D9F3C8 /* PopcornTimeRemoteControlTests.m */,
-				01446ADA1A60AA9900D9F3C8 /* Supporting Files */,
+				0179AC531A64E16000E9D95A /* HomeViewController.h */,
+				0179AC541A64E16000E9D95A /* HomeViewController.m */,
+				0179AC551A64E16000E9D95A /* LeftMenuViewController.h */,
+				0179AC561A64E16000E9D95A /* LeftMenuViewController.m */,
 			);
-			path = PopcornTimeRemoteControlTests;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		01446ADA1A60AA9900D9F3C8 /* Supporting Files */ = {
+		0179AC5C1A64E1BA00E9D95A /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				01446ADB1A60AA9900D9F3C8 /* Info.plist */,
+				0179AC5D1A64E1BA00E9D95A /* Animations */,
+				0179AC691A64E1BA00E9D95A /* Assets */,
+				0179AC6C1A64E1BA00E9D95A /* SlideNavigationController.h */,
+				0179AC6D1A64E1BA00E9D95A /* SlideNavigationController.m */,
 			);
-			name = "Supporting Files";
+			path = Source;
+			sourceTree = "<group>";
+		};
+		0179AC5D1A64E1BA00E9D95A /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				0179AC5E1A64E1BA00E9D95A /* SlideNavigationContorllerAnimator.h */,
+				0179AC5F1A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorFade.h */,
+				0179AC601A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorFade.m */,
+				0179AC611A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorScale.h */,
+				0179AC621A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorScale.m */,
+				0179AC631A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				0179AC641A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				0179AC651A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorSlide.h */,
+				0179AC661A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorSlide.m */,
+				0179AC671A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				0179AC681A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		0179AC691A64E1BA00E9D95A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0179AC6A1A64E1BA00E9D95A /* menu-button.png */,
+				0179AC6B1A64E1BA00E9D95A /* menu-button@2x.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,24 +174,6 @@
 			productReference = 01446ABA1A60AA9900D9F3C8 /* PopcornTimeRemoteControl.app */;
 			productType = "com.apple.product-type.application";
 		};
-		01446AD51A60AA9900D9F3C8 /* PopcornTimeRemoteControlTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 01446AE31A60AA9900D9F3C8 /* Build configuration list for PBXNativeTarget "PopcornTimeRemoteControlTests" */;
-			buildPhases = (
-				01446AD21A60AA9900D9F3C8 /* Sources */,
-				01446AD31A60AA9900D9F3C8 /* Frameworks */,
-				01446AD41A60AA9900D9F3C8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				01446AD81A60AA9900D9F3C8 /* PBXTargetDependency */,
-			);
-			name = PopcornTimeRemoteControlTests;
-			productName = PopcornTimeRemoteControlTests;
-			productReference = 01446AD61A60AA9900D9F3C8 /* PopcornTimeRemoteControlTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -173,10 +185,6 @@
 				TargetAttributes = {
 					01446AB91A60AA9900D9F3C8 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					01446AD51A60AA9900D9F3C8 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 01446AB91A60AA9900D9F3C8;
 					};
 				};
 			};
@@ -194,7 +202,6 @@
 			projectRoot = "";
 			targets = (
 				01446AB91A60AA9900D9F3C8 /* PopcornTimeRemoteControl */,
-				01446AD51A60AA9900D9F3C8 /* PopcornTimeRemoteControlTests */,
 			);
 		};
 /* End PBXProject section */
@@ -204,16 +211,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01446ACC1A60AA9900D9F3C8 /* Main.storyboard in Resources */,
+				0179AC731A64E1BA00E9D95A /* menu-button.png in Resources */,
+				0179AC5B1A64E18100E9D95A /* MainStoryboard_iPhone.storyboard in Resources */,
 				01446AD11A60AA9900D9F3C8 /* LaunchScreen.xib in Resources */,
+				0179AC741A64E1BA00E9D95A /* menu-button@2x.png in Resources */,
 				01446ACE1A60AA9900D9F3C8 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		01446AD41A60AA9900D9F3C8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,45 +227,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				01446AC31A60AA9900D9F3C8 /* AppDelegate.m in Sources */,
-				01446AC61A60AA9900D9F3C8 /* MasterViewController.m in Sources */,
+				0179AC6F1A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+				0179AC721A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				0179AC701A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
 				01446AC01A60AA9900D9F3C8 /* main.m in Sources */,
-				01446AC91A60AA9900D9F3C8 /* DetailViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		01446AD21A60AA9900D9F3C8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01446ADD1A60AA9900D9F3C8 /* PopcornTimeRemoteControlTests.m in Sources */,
+				0179AC711A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
+				0179AC571A64E16000E9D95A /* HomeViewController.m in Sources */,
+				0179AC581A64E16000E9D95A /* LeftMenuViewController.m in Sources */,
+				0179AC6E1A64E1BA00E9D95A /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				0179AC751A64E1BA00E9D95A /* SlideNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		01446AD81A60AA9900D9F3C8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 01446AB91A60AA9900D9F3C8 /* PopcornTimeRemoteControl */;
-			targetProxy = 01446AD71A60AA9900D9F3C8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		01446ACA1A60AA9900D9F3C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01446ACB1A60AA9900D9F3C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		01446ACF1A60AA9900D9F3C8 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				01446AD01A60AA9900D9F3C8 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		0179AC591A64E18100E9D95A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0179AC5A1A64E18100E9D95A /* Base */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -367,40 +359,6 @@
 			};
 			name = Release;
 		};
-		01446AE41A60AA9900D9F3C8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PopcornTimeRemoteControlTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopcornTimeRemoteControl.app/PopcornTimeRemoteControl";
-			};
-			name = Debug;
-		};
-		01446AE51A60AA9900D9F3C8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PopcornTimeRemoteControlTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopcornTimeRemoteControl.app/PopcornTimeRemoteControl";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -420,14 +378,7 @@
 				01446AE21A60AA9900D9F3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		01446AE31A60AA9900D9F3C8 /* Build configuration list for PBXNativeTarget "PopcornTimeRemoteControlTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				01446AE41A60AA9900D9F3C8 /* Debug */,
-				01446AE51A60AA9900D9F3C8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
