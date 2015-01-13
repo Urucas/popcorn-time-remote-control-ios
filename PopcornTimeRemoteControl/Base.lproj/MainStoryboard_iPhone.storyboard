@@ -148,6 +148,9 @@
                                         <state key="normal" image="watched_icon.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="toggleWatched:" destination="mAB-md-uek" eventType="touchUpInside" id="yog-NF-Nh9"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KEt-aK-36d">
                                         <rect key="frame" x="32" y="254" width="25" height="26"/>
@@ -155,6 +158,9 @@
                                         <state key="normal" image="favourite_icon.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="toggleFavourites:" destination="mAB-md-uek" eventType="touchUpInside" id="Tnt-uz-XeL"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Season" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oNV-Ze-G3S">
                                         <rect key="frame" x="252" y="296" width="52" height="21"/>
@@ -169,6 +175,9 @@
                                         <state key="normal" image="arrow_down.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="seasonDown:" destination="mAB-md-uek" eventType="touchUpInside" id="xm8-Cc-tXX"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MLH-EU-sgr">
                                         <rect key="frame" x="262" y="250" width="32" height="40"/>
@@ -176,6 +185,9 @@
                                         <state key="normal" image="arrow_up.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="seasonUp:" destination="mAB-md-uek" eventType="touchUpInside" id="oTO-Kf-smT"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Cu6-FJ-YVW">
                                         <rect key="frame" x="0.0" y="518" width="320" height="50"/>
@@ -191,6 +203,9 @@
                                         <state key="normal" image="play.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="tooglePlay:" destination="mAB-md-uek" eventType="touchUpInside" id="hIx-LS-sdu"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jKB-gJ-de5">
                                         <rect key="frame" x="13" y="533" width="24" height="19"/>
@@ -198,6 +213,9 @@
                                         <state key="normal" image="volume_mute.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="toggleMute:" destination="mAB-md-uek" eventType="touchUpInside" id="4eG-sU-o2k"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VgY-Ye-a8R">
                                         <rect key="frame" x="0.0" y="111" width="320" height="2"/>
@@ -215,6 +233,9 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="showMovies:" destination="mAB-md-uek" eventType="touchUpInside" id="x5R-Ru-3TY"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bPh-Cg-Qw5">
                                         <rect key="frame" x="109" y="283" width="103" height="48"/>
@@ -222,6 +243,9 @@
                                         <state key="normal" image="circle.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="enter:" destination="mAB-md-uek" eventType="touchUpInside" id="p2g-4P-7MP"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OZb-kE-1q5">
                                         <rect key="frame" x="101" y="293" width="28" height="32"/>
@@ -229,6 +253,9 @@
                                         <state key="normal" image="prev_btt.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="moveLeft:" destination="mAB-md-uek" eventType="touchUpInside" id="jpB-lm-TOK"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wNf-eK-aPH">
                                         <rect key="frame" x="196" y="293" width="28" height="32"/>
@@ -236,6 +263,9 @@
                                         <state key="normal" image="next_btt.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="moveRight:" destination="mAB-md-uek" eventType="touchUpInside" id="lYf-Ma-28X"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="n7O-XY-OM2">
                                         <rect key="frame" x="141" y="338" width="38" height="32"/>
@@ -243,6 +273,9 @@
                                         <state key="normal" image="down_btt.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="moveDown:" destination="mAB-md-uek" eventType="touchUpInside" id="ZEf-7I-TtO"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CD4-rK-csd">
                                         <rect key="frame" x="141" y="243" width="38" height="32"/>
@@ -250,6 +283,9 @@
                                         <state key="normal" image="up_btt.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="moveUp:" destination="mAB-md-uek" eventType="touchUpInside" id="ONb-u4-UOJ"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="a9j-4M-KEP">
                                         <rect key="frame" x="166" y="62" width="154" height="48"/>
@@ -259,6 +295,9 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="showSeries:" destination="mAB-md-uek" eventType="touchUpInside" id="PlU-hk-dK4"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="He1-RJ-9Dc">
                                         <rect key="frame" x="75" y="163" width="21" height="21"/>
@@ -266,6 +305,9 @@
                                         <state key="normal" image="fullscreen.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="toggleFullscreen:" destination="mAB-md-uek" eventType="touchUpInside" id="bbO-m5-D3u"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QBy-iR-ZTc">
                                         <rect key="frame" x="228" y="163" width="26" height="26"/>
@@ -273,6 +315,9 @@
                                         <state key="normal" image="return_icon.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="back:" destination="mAB-md-uek" eventType="touchUpInside" id="HJv-8i-5Ct"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

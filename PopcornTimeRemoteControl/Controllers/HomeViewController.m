@@ -1,10 +1,3 @@
-//
-//  HomeViewController.m
-//  SlideMenu
-//
-//  Created by Aryan Gh on 4/24/13.
-//  Copyright (c) 2013 Aryan Ghassemi. All rights reserved.
-//
 
 #import "HomeViewController.h"
 #import "LeftMenuViewController.h"
@@ -14,14 +7,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	
-	self.scrollView.contentSize = CGSizeMake(self.view.frame.size.width, 503);
-	self.portraitSlideOffsetSegment.selectedSegmentIndex = [self indexFromPixels:[SlideNavigationController sharedInstance].portraitSlideOffset];
-	self.landscapeSlideOffsetSegment.selectedSegmentIndex = [self indexFromPixels:[SlideNavigationController sharedInstance].landscapeSlideOffset];
-	self.panGestureSwitch.on = [SlideNavigationController sharedInstance].enableSwipeGesture;
-	self.shadowSwitch.on = [SlideNavigationController sharedInstance].enableShadow;
-	self.limitPanGestureSwitch.on = ([SlideNavigationController sharedInstance].panGestureSideOffset == 0) ? NO : YES;
-	self.slideOutAnimationSwitch.on = ((LeftMenuViewController *)[SlideNavigationController sharedInstance].leftMenu).slideOutAnimationEnabled;
+   
 }
 
 #pragma mark - SlideNavigationController Methods -
@@ -47,69 +33,65 @@
 	menu = (menu == MenuLeft) ? MenuRight : MenuLeft;
 }
 
-- (IBAction)slideOutAnimationSwitchChanged:(UISwitch *)sender
-{
-	((LeftMenuViewController *)[SlideNavigationController sharedInstance].leftMenu).slideOutAnimationEnabled = sender.isOn;
+- (IBAction)tooglePlay:(id)sender {
+    NSLog(@"toggle play");
 }
 
-- (IBAction)limitPanGestureSwitchChanged:(UISwitch *)sender
-{
-	[SlideNavigationController sharedInstance].panGestureSideOffset = (sender.isOn) ? 50 : 0;
+- (IBAction)toggleMute:(id)sender {
+    NSLog(@"toggle mute");
 }
 
-- (IBAction)changeAnimationSelected:(id)sender
-{
-	[[SlideNavigationController sharedInstance] openMenu:MenuRight withCompletion:nil];
+- (IBAction)showMovies:(id)sender {
+    NSLog(@"show movies");
 }
 
-- (IBAction)shadowSwitchSelected:(UISwitch *)sender
-{
-	[SlideNavigationController sharedInstance].enableShadow = sender.isOn;
+- (IBAction)showSeries:(id)sender {
+    NSLog(@"show series");
 }
 
-- (IBAction)enablePanGestureSelected:(UISwitch *)sender
-{
-	[SlideNavigationController sharedInstance].enableSwipeGesture = sender.isOn;
+- (IBAction)toggleFullscreen:(id)sender {
+    NSLog(@"toggle fullscreen");
 }
 
-- (IBAction)portraitSlideOffsetChanged:(UISegmentedControl *)sender
-{
-	[SlideNavigationController sharedInstance].portraitSlideOffset = [self pixelsFromIndex:sender.selectedSegmentIndex];
+- (IBAction)toggleFavourites:(id)sender {
+    NSLog(@"toggle favs");
 }
 
-- (IBAction)landscapeSlideOffsetChanged:(UISegmentedControl *)sender
-{
-	[SlideNavigationController sharedInstance].landscapeSlideOffset = [self pixelsFromIndex:sender.selectedSegmentIndex];
+- (IBAction)toggleWatched:(id)sender {
+    NSLog(@"toggle watched");
 }
 
-#pragma mark - Helpers -
-
-- (NSInteger)indexFromPixels:(NSInteger)pixels
-{
-	if (pixels == 60)
-		return 0;
-	else if (pixels == 120)
-		return 1;
-	else
-		return 2;
+- (IBAction)back:(id)sender {
+    NSLog(@"go back");
 }
 
-- (NSInteger)pixelsFromIndex:(NSInteger)index
-{
-	switch (index)
-	{
-		case 0:
-			return 60;
-			
-		case 1:
-			return 120;
-			
-		case 2:
-			return 200;
-			
-		default:
-			return 0;
-	}
+- (IBAction)enter:(id)sender {
+    NSLog(@"enter");
+}
+
+- (IBAction)moveLeft:(id)sender {
+    NSLog(@"move left");
+}
+
+- (IBAction)moveRight:(id)sender {
+    NSLog(@"move right");
+}
+
+- (IBAction)moveUp:(id)sender {
+    NSLog(@"move up");
+}
+
+- (IBAction)moveDown:(id)sender {
+    NSLog(@"move down");
+}
+
+- (IBAction)seasonUp:(id)sender {
+    NSLog(@"season up");
+
+}
+
+- (IBAction)seasonDown:(id)sender{
+    NSLog(@"season down");
 }
 
 @end
